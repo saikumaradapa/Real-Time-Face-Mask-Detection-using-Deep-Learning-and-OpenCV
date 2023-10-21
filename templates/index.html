@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Face Mask Detection System by Sai Kumar Adapa</title>
+    <link rel="icon" href="face_mask.jpeg" type="image/jpeg">
+
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Custom CSS for some styling -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+        }
+        h3 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        img {
+            border: 3px solid #555;
+            border-radius: 10px;
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="col-lg-8 offset-lg-2 text-center">
+        <h3>Real-Time Face Mask Detection System</h3>
+        <h4>by Sai Kumar Adapa</h4>
+        <img src="{{ url_for('video_feed') }}" width="50%"  height="" alt="Face Mask Detection Feed">
+        <p>
+            <strong>Project Title:</strong> Real-time Face Mask Detection System <br>
+            <strong>Developer Name:</strong> Sai Kumar Adapa<br>
+            <strong>Tech Stack:</strong> Flask, Keras, OpenCV, HTML, Bootstrap<br>
+            <strong>Description</strong>: A real-time system that captures video from a device's camera, processes the stream frame-by-frame, and identifies multiple individuals to predict whether each person is wearing a mask or not. Utilizing advanced deep learning techniques, this system can handle multiple face detections simultaneously, ensuring mask-wearing compliance in crowded scenarios and displaying the results in real time.<br>
+            <strong>GitHub Link:</strong> <a href="https://github.com/saikumaradapa/Real-Time-Face-Mask-Detection-using-Deep-Learning-and-OpenCV" target="_blank">https://github.com/saikumaradapa/Real-Time-Face-Mask-Detection-using-Deep-Learning-and-OpenCV</a> <br>
+            <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sai-kumar-adapa-5a16b2228/" target="_blank">https://www.linkedin.com/in/sai-kumar-adapa-5a16b2228/</a><br><br><br>
+        </p>
+    </div>
+
+    <!-- External JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
